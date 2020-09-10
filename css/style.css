@@ -11,37 +11,131 @@
     3, Banner
 */
 /* ========== 1, Reset css ========== */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.7;
-    color: #000;
+html{
+    scroll-behavior: smooth;
 }
 
-ul,ol{
-    list-style: none;
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #000;
 }
-/* ========== 2, Header ========== */ 
-.header{
-    height: 100px;
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
-.header-content{
+
+.responsive .smaller-pic {
+  width: 70%;
+  height: 70%;
+}
+
+.header{ 
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+
+.header-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+
+.content-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+/* ========== 2, Header ========== */
+.header {
+  height: 100px;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.list-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-menu .menu-item {
+  padding: 32.5px;
+}
+
+.nav-links {
+  color: #000000;
+  text-decoration: none;
+  transition: all .2s ease-in;
+}
+
+.nav-links:hover {
+  text-decoration: none;
+  transition: 0.3;
+  color: #ff729b;
+}
+
+.text-summary {
+  margin-top: 32px;
+}
+
+.pic-center {
+  text-align: center;
+}
+
+.advantages {
+  margin-top: 42px;
+}
+
+.go-to-detail-btn{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
-.list-menu{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+
+.detail-btn {
+  background: linear-gradient(182.99deg, #3dbda4 68.45%, #186a8f 144.03%);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  color: #ffffff;
+  align-self: center;
+  margin: 10px 0px;
+  padding: 8px 16px;
+  opacity: 1;
+  transition: 0.3s;
 }
-.list-menu .menu-item{
-    padding: 32.5px;
-}
+
+.detail-btn:hover {
+    opacity: 0.8;
+    color: #000;
+  }
+  
