@@ -29,6 +29,9 @@ body {
   color: #000;
 }
 
+.wrapper{
+  overflow: hidden;
+}
 .responsive {
   width: 100%;
   height: auto;
@@ -39,11 +42,6 @@ body {
   height: 70%;
 }
 
-.header{ 
-    position: sticky;
-    top: 0;
-    background: #fff;
-}
 
 .header-text {
   font-family: Roboto;
@@ -69,8 +67,13 @@ ol {
   list-style: none;
 }
 /* ========== 2, Header ========== */
+
 .header {
   height: 100px;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  padding: 0 85px 0 135px;
 }
 .header-content {
   display: flex;
@@ -88,13 +91,14 @@ ol {
   justify-content: space-between;
 }
 .list-menu .menu-item {
-  padding: 32.5px;
+  padding: 35px;
 }
 
 .nav-links {
   color: #000000;
   text-decoration: none;
   transition: all .2s ease-in;
+  font-size: 17px;
 }
 
 .nav-links:hover {
