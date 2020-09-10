@@ -1,0 +1,47 @@
+/*
+    Theme name          : Trendy 
+    Theme description   : Landing page of Viettel Trendy
+    Version             : 1.0
+    Author              : PhongVG, AnhNB
+*/
+/* 
+    Table of contents
+    1, Reset css
+    2, Header
+    3, Banner
+*/
+/* ========== 1, Reset css ========== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #000;
+}
+
+ul,ol{
+    list-style: none;
+}
+/* ========== 2, Header ========== */ 
+.header{
+    height: 100px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list-menu{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list-menu .menu-item{
+    padding: 32.5px;
+}
