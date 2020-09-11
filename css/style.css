@@ -29,9 +29,6 @@ body {
   color: #000;
 }
 
-.wrapper{
-  overflow: hidden;
-}
 .responsive {
   width: 100%;
   height: auto;
@@ -74,6 +71,7 @@ ol {
   top: 0;
   background: #fff;
   padding: 0 85px 0 135px;
+  padding-top: 20px;
 }
 .header-content {
   display: flex;
@@ -89,9 +87,10 @@ ol {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 0;
 }
 .list-menu .menu-item {
-  padding: 35px;
+  padding: 0 35px;
 }
 
 .nav-links {
