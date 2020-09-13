@@ -1,0 +1,573 @@
+/*
+    Theme name          : Trendy 
+    Theme description   : Landing page of Viettel Trendy
+    Version             : 1.0
+    Author              : PhongVG, AnhNB
+*/
+/* 
+    Table of contents
+    1, Reset css
+    2, Header
+    3, Banner
+    4, Summary
+    5, Main Content
+    6, Footer Registration
+*/
+/* ========== 1, Reset css ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #000;
+}
+
+/* body img{
+  max-width: 100%;
+  height: auto;
+} */
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.responsive .smaller-pic {
+  width: 70%;
+  height: 70%;
+}
+
+.full-img {
+  width: 100%;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.main-btn {
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  align-self: center;
+  padding: 13px 22px;
+  opacity: 1;
+  transition: 0.3s;
+  font-size: 18px;
+  line-height: 21px;
+  background: #fff;
+  color: #3fbda4;
+}
+
+.res-btn {
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  align-self: center;
+  margin: 12px 0px;
+  padding: 13px 22px;
+  opacity: 1;
+  transition: 0.3s;
+  font-size: 18px;
+  line-height: 21px;
+  background: #00918c;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+text-center {
+  text-align: center;
+}
+/* ========== 2, Header ========== */
+
+.header {
+  z-index: 999;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  padding: 0 85px 0 135px;
+  padding-top: 20px;
+}
+
+.mobile-menu{
+  display: none;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-text {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.content-text {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 22px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.list-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.list-menu .menu-item {
+  padding: 0 35px;
+}
+
+.nav-links {
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+  font-size: 17px;
+}
+
+.nav-links:hover {
+  text-decoration: none;
+  transition: 0.3;
+  color: #26b18e;
+}
+
+/* ========== 3, Banner =========== */
+
+/* ========== 4, Summary ========== */
+.text-summary {
+  margin-top: 43px;
+}
+
+.pic-center {
+  text-align: center;
+}
+
+.advantages {
+  margin-top: 55px;
+}
+
+.go-to-detail-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.detail-btn {
+  background: linear-gradient(
+    182.99deg,
+    #3dbda4 68.45%,
+    #186a8f 144.03%
+  ) !important;
+  color: #ffffff !important;
+}
+
+.detail-btn:hover {
+  opacity: 0.8;
+  color: #000;
+}
+
+/* ========== 5,Main Content ========== */
+
+.main-content {
+  margin-top: 42px;
+}
+.paragraph {
+  position: relative;
+}
+.paragraph .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: fit-content;
+}
+.paragraph .content .title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+}
+
+.paragraph .content ul {
+  padding-left: 40px;
+}
+
+.paragraph .content li {
+  padding-bottom: 16px;
+}
+
+.paragraph .content ul li::before {
+  color: #ff729b;
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.promotion {
+  position: relative;
+}
+.promotion .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: fit-content;
+}
+
+.promotion .content .title {
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #f2f2f2;
+  text-shadow: 2px 2px 0px rgba(60, 181, 219, 0.5);
+  font-weight: bold;
+}
+
+.promotion .content .desciption {
+  font-size: 16px;
+  text-align: center;
+  line-height: 19px;
+  color: #f2f2f2;
+  font-weight: bold;
+}
+
+.promotion .part-left {
+  position: absolute;
+  top: 38%;
+  left: 10%;
+}
+
+.promotion .part-left .title {
+  font-size: 32px;
+  line-height: 37px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.promotion .part-left .desciption {
+  margin-top: 4px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.promotion .part-right {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.promotion .part-right .title {
+  font-size: 32px;
+  line-height: 37px;
+  /* color: linear-gradient(182.99deg, #3DBDA4 68.45%, #186A8F 144.03%); */
+  color: #3fbda4;
+  font-weight: bold;
+}
+
+.promotion .part-right .seperate-text {
+  line-height: 19px;
+  color: #ff729b;
+  font-weight: bold;
+}
+
+.promotion-type2 {
+  position: relative;
+}
+
+.promotion-type2 .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: fit-content;
+}
+
+.promotion-type2 .content .title {
+  font-size: 32px;
+  line-height: 37px;
+  font-weight: bold;
+}
+
+/* ========== 6,Footer Registation ========== */
+
+/* ==== Sign Up ==== */
+
+.advertisement {
+  background-color: #f8f8f8;
+  padding: 130px;
+}
+
+.advertisement .title {
+  font-size: 28px;
+  line-height: 37px;
+  /* color: linear-gradient(182.99deg, #3DBDA4 68.45%, #186A8F 144.03%); */
+  color: #3fbda4;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 18px;
+  line-height: 37px;
+  color: #000;
+  font-weight: bold;
+}
+
+.sign-up ul {
+  list-style: none;
+}
+
+.sign-up ul li::before {
+  content: "\2022";
+  color: #3fbda4;
+  font-weight: bold;
+  display: inline-block;
+  width: 0.75em;
+  font-size: 1.4em;
+}
+
+.smaller-title {
+  font-size: 18px;
+  color: #3fbda4;
+  font-weight: bold;
+  padding-top: 16px;
+}
+
+/* .sign-up .steps {
+  padding: 0 80px;
+} */
+
+.footer-body {
+  height: 219px;
+  background-image: url("/assets/pics/images 4.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-body .title {
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* ========== 6,Footer ========== */
+
+.footer {
+  height: 186px;
+  /* background-image: url("/assets/pics/Rectangle6.png") repeat 0 0; */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+/* ============= 7,RESPONSIVE ============= */
+
+@media only screen and (max-device-width: 768px) {
+  .wrapper {
+    overflow: hidden;
+  }
+
+  .advertisement {
+    padding: 24px;
+  }
+
+  .sign-up-col{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 420px) and (min-width: 300px) and (orientation: portrait){ 
+  body {
+    font-size: 14px; 
+  } 
+
+  .wrapper{ 
+    overflow: hidden; 
+  } 
+
+  .header{
+    padding: 20px 49px 0 20px;
+  }
+
+  .header-menu{
+    display: none;
+  }
+
+  .mobile-menu{
+    display: block;
+    color: rgba(102,102,102,0.85);
+    font-size: 25px;
+  }
+
+  .logo-mobile{
+    width: 170px;
+  }
+
+  .sign-up-col{
+    text-align: center;
+    padding-bottom: 35px !important;
+  }
+
+  .footer-body .title{ 
+    text-align: center; 
+  } 
+
+  .footer{ 
+    height: 270px; 
+    padding: 10px 10px; 
+    text-align: center;
+  } 
+
+  .advertisement{
+    padding: 10px;  
+  }
+
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .paragraph .content .title{
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .paragraph .content ul{
+    padding-left: 24px;
+  }
+
+  .paragraph .content li {
+    padding-bottom: 0;
+  }
+
+  .main-btn{
+    padding: 10px 18px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .promotion .part-left .title{
+    font-size: 24px;
+    line-height: 16px;
+  }
+
+  .promotion .part-left .desciption{
+    font-size:14px;
+  }
+
+  .promotion .part-right{
+    top: 18%;
+  }
+
+  .promotion .content .title{
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
