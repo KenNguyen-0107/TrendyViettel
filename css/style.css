@@ -109,6 +109,11 @@ text-center {
   padding: 0 85px 0 135px;
   padding-top: 20px;
 }
+
+.mobile-menu{
+  display: none;
+}
+
 .header-content {
   display: flex;
   align-items: center;
@@ -359,6 +364,7 @@ text-center {
   font-size: 18px;
   color: #3fbda4;
   font-weight: bold;
+  padding-top: 16px;
 }
 
 /* .sign-up .steps {
@@ -395,7 +401,7 @@ text-center {
   color: #fff;
 }
 
-/* ============= RESPONSIVE ============= */
+/* ============= 7,RESPONSIVE ============= */
 
 @media only screen and (max-device-width: 768px) {
   .wrapper {
@@ -410,6 +416,54 @@ text-center {
     text-align: center;
     margin-bottom: 15px;
   }
+}
+
+@media only screen and (max-width: 420px) and (min-width: 300px) and (orientation: portrait){ 
+  body {
+    font-size: 14px; 
+  } 
+
+  .wrapper{ 
+    overflow: hidden; 
+  } 
+
+  .header{
+    padding: 20px 49px 0 20px;
+  }
+
+  .header-menu{
+    display: none;
+  }
+
+  .mobile-menu{
+    display: block;
+    color: rgba(102,102,102,0.85);
+    font-size: 25px;
+  }
+
+  .logo-mobile{
+    width: 170px;
+  }
+
+  .sign-up-col{
+    text-align: center;
+    padding-bottom: 35px !important;
+  }
+
+  .footer-body .title{ 
+    text-align: center; 
+  } 
+
+  .footer{ 
+    height: 270px; 
+    padding: 10px 10px; 
+    text-align: center;
+  } 
+
+  .advertisement{
+    padding: 10px;  
+  }
+
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
