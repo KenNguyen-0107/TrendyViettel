@@ -526,6 +526,42 @@ text-center {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .paragraph .content .title{
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .paragraph .content ul{
+    padding-left: 24px;
+  }
+
+  .paragraph .content li {
+    padding-bottom: 0;
+  }
+
+  .main-btn{
+    padding: 10px 18px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .promotion .part-left .title{
+    font-size: 24px;
+    line-height: 16px;
+  }
+
+  .promotion .part-left .desciption{
+    font-size:14px;
+  }
+
+  .promotion .part-right{
+    top: 18%;
+  }
+
+  .promotion .content .title{
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
 
 /* Portrait */
