@@ -40,13 +40,37 @@ body {
   height: 70%;
 }
 
-ul,
-ol {
+.full-img{
+  width: 100%;
+}
+
+.text-left{
+  text-align: left !important;
+}
+
+.main-btn{
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  align-self: center;
+  margin: 26px 0px;
+  padding: 13px 22px;
+  opacity: 1;
+  transition: 0.3s;
+  font-size: 18px;
+  line-height: 21px;
+  background: #fff;
+  color: #3fbda4;
+}
+
+ul{
   list-style: none;
 }
 /* ========== 2, Header ========== */
 
 .header {
+  z-index: 999;
   height: 100px;
   position: sticky;
   top: 0;
@@ -122,23 +146,58 @@ ol {
 }
 
 .detail-btn {
-  background: linear-gradient(182.99deg, #3dbda4 68.45%, #186a8f 144.03%);
-  border-radius: 4px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  color: #ffffff;
-  align-self: center;
-  margin: 26px 0px;
-  padding: 13px 22px;
-  opacity: 1;
-  transition: 0.3s;
-  font-size: 18px;
-  line-height: 21px;
+  background: linear-gradient(182.99deg, #3dbda4 68.45%, #186a8f 144.03%) !important;
+  color: #ffffff !important;
 }
 
 .detail-btn:hover {
     opacity: 0.8;
     color: #000;
 }
-  
+/* ========== Main Content ========== */
+.main-content{
+  margin-top: 42px;
+}
+.paragraph{
+  position: relative;
+}
+.paragraph .content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.paragraph .content .title{
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  padding-bottom: 28px;
+}
+
+.paragraph .content ul{
+  padding-left: 40px;
+}
+
+.paragraph .content li{
+  padding-bottom: 16px;
+}
+
+.paragraph .content ul li::before{
+  color: #FF729B;
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.divide3{
+  position: relative;
+} 
+.divide3 .content{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
