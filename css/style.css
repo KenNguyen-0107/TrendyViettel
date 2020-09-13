@@ -199,9 +199,11 @@ text-center {
 }
 .paragraph .content {
   position: absolute;
-  top: 20%;
-  left: 23%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+  width: fit-content;
 }
 .paragraph .content .title {
   font-size: 34px;
@@ -232,8 +234,11 @@ text-center {
 }
 .promotion .content {
   position: absolute;
-  top: 40%;
-  left: 6%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: fit-content;
 }
 
 .promotion .content .title {
@@ -298,9 +303,11 @@ text-center {
 
 .promotion-type2 .content {
   position: absolute;
-  top: 10%;
-  left: 17%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+  width: fit-content;
 }
 
 .promotion-type2 .content .title {
@@ -315,7 +322,7 @@ text-center {
 
 .advertisement {
   background-color: #f8f8f8;
-  padding: 80px;
+  padding: 130px;
 }
 
 .advertisement .title {
@@ -329,7 +336,6 @@ text-center {
 .sub-title {
   font-size: 18px;
   line-height: 37px;
-  /* color: linear-gradient(182.99deg, #3DBDA4 68.45%, #186A8F 144.03%); */
   color: #000;
   font-weight: bold;
 }
@@ -348,10 +354,13 @@ text-center {
 }
 
 .smaller-title{
-  font-size: 16px;
-  /* color: linear-gradient(182.99deg, #3DBDA4 68.45%, #186A8F 144.03%); */
+  font-size: 18px;
   color: #3fbda4;
   font-weight: bold;
+}
+
+.sign-up .col {
+  padding: 0 80px;
 }
 
 .footer-body {
