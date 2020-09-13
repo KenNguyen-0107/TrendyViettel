@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trendy</title>
-
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
@@ -16,6 +15,7 @@
   </head>
   <body>
     <div class="wrapper" id="home">
+      <!---------------------------- HEADER ---------------------------->
       <div class="header">
         <div class="header-content">
           <div class="logo">
@@ -27,24 +27,27 @@
               />
             </a>
           </div>
+          <!------------------------- NAV ------------------------->
           <div class="header-menu nav nav-btn">
             <ul class="list-menu">
               <li class="menu-item">
-                <a class="nav-links" href="#home">Trang chủ</a>
+                <a class="nav-links" href="#">Trang chủ</a>
               </li>
               <li class="menu-item">
                 <a class="nav-links" href="#introduction">Giới thiệu</a>
               </li>
               <li class="menu-item">
-                <a class="nav-links" href="#">Các ưu đãi</a>
+                <a class="nav-links" href="#advantages">Các ưu đãi</a>
               </li>
               <li class="menu-item">
-                <a class="nav-links" href="#">Cách thức đăng ký</a>
+                <a class="nav-links" href="#sign-up">Cách thức đăng ký</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
+      <!---------------------------- BODY ---------------------------->
+      <!----------------------- BANNER ---------------------->
       <div class="banner">
         <img src="assets/pics/banner1.png" alt="bigBanner" class="responsive" />
       </div>
@@ -62,6 +65,7 @@
             trải nghiệm học tập và giải trí mới mẻ, tự tin dẫn đầu xu hướng
           </p>
         </div>
+        <!----------------------- INTRO ---------------------->
         <div class="container-fluid advantages" id="introduction">
           <div class="row">
             <div class="col-sm pic-center">
@@ -110,29 +114,30 @@
           </div>
         </div>
       </div>
-      <div class="main-content">
+      <!----------------------- MAIN CONTENT ---------------------->
+      <div class="main-content" id="advantages">
         <div class="container-fluid">
           <div class="row">
             <div class="col pl-0 pr-0">
-                <img class="full-img" src="/assets/pics/hinh1.png" alt="">
+                <img class="full-img" src="assets/pics/hinh1.png" alt="">
             </div>
             <div class="col pl-0 pr-0 paragraph">
-                <img class="full-img" src="/assets/pics/images 3.png" alt="">
+                <img class="full-img" src="assets/pics/images3.png" alt="">
                 <div class="content">
                   <p class="title">Siêu rẻ dành cho giới trẻ</p>
                   <ul class="text-left">
                     <li>Gọi nội mạng/ngoại mạng chỉ <span style="font-weight: bold;">690 VNĐ/phút</span></li>
                     <li>Miễn phí tất cả các cuộc gọi nội mạng < 20p</br> khi đăng ký gói Data ST15K (3GB/3 ngày/15K) </br>hoặc ST30K (7GB/7 ngày/30K)</li>
                   </ul>
-                  <button class="btn main-btn">Xem chi tiết</button>
+                  <button class="btn main-btn"><a href='#sign-up'>Đăng ký ngay</a></button>
                 </div>
             </div>
           </div>
           <div class="row">
             <div class="col pl-0 pr-0 paragraph">
-              <img class="full-img" src="/assets/pics/images 5-2.png" alt="">
+              <img class="full-img" src="assets/pics/images5-2.png" alt="">
               <div class="content">
-                <p class="title"><span style="color:#00918C;">Búp phê Data</span> - Trọn gói 90K</p>
+                <p class="title"><span style="color:#00918C;">Buffet Data</span> - Trọn gói 90K</p>
                 <ul class="text-left">
                   <li>V90X: 90K/tháng</li>
                   <li>Miễn phí tất cả các cuộc gọi nội mạng dưới 20 phút</li>
@@ -143,15 +148,15 @@
               </div>
           </div>
             <div class="col pl-0 pr-0">
-                <img class="full-img" src="/assets/pics/hinh2.png" alt="">
+                <img class="full-img" src="assets/pics/hinh2.png" alt="">
             </div>
           </div>
           <div class="row">
             <div class="col pl-0 pr-0">
-                <img class="full-img" src="/assets/pics/Applemusictv.png" alt="">
+                <img class="full-img" src="assets/pics/Applemusictv.png" alt="">
             </div>
             <div class="col pl-0 pr-0 paragraph">
-                <img class="full-img" src="/assets/pics/images 3.png" alt="">
+                <img class="full-img" src="assets/pics/images3.png" alt="">
                 <div class="content">
                   <p class="title"><span style="color:#00918C;">06 tháng</span> sử dụng miễn phí </br>
                     Apple Music và Apple TV+ </p>
@@ -161,17 +166,16 @@
                 </div>
             </div>
           </div>
-          
           <div class="row">
             <div class="col pl-0 pr-0 promotion">
-              <img class="full-img" src="/assets/pics/tiktok.png" alt="">
+              <img class="full-img" src="assets/pics/tiktok.png" alt="">
               <div class="content">
                 <p class="title">FREE DATA - TIKTOK THẢ GA</p>
                 <p class="desciption">Miễn phí data sử dụng Mocha và Tiktok</p>
               </div>
             </div>
             <div class="col pl-0 pr-0 promotion">
-              <img class="full-img" src="/assets/pics/25k.png" alt="">
+              <img class="full-img" src="assets/pics/25k.png" alt="">
               <div class="part-left">
                 <p class="title">Tặng ngay</p>
                 <p class="desciption">cho khách hàng hoàn</br> thành thủ tục sinh viên</p>
@@ -185,7 +189,7 @@
               </div>
             </div>
             <div class="col pl-0 pr-0 promotion-type2">
-              <img class="full-img" src="/assets/pics/Rectangle 5.png" alt="">
+              <img class="full-img" src="assets/pics/Rectangle5.png" alt="">
               <div class="content">
                 <p class="title">Voucher giảm 15%<br/>khi mua <span>BitisHunter</span></p>
                 <p class="desciption">Truy cập Viettel++ trên ứng dụng MyViettel để<br/> 
@@ -195,24 +199,53 @@
               </div>
             </div>
           </div>
-          
-         
         </div>
       </div>
-      <div class="middle-body advertisement"></div>
+      <div class="middle-body advertisement" id='sign-up'>
+        <!----------------------- SIGN UP ---------------------->
+        <div class="container-fluid sign-up">
+          <div class="row">
+            <div class="col sign-up-col">
+                <span class="title">Đăng ký gói cước Trendy</span><br/>
+                <span class="sub-title">theo 3 cách</span><br/>
+                <button class="btn main-btn detail-btn"><a href="#sign-up">Đăng ký ngay</a></button>
+            </div>
+            <div class="col step-1">
+              <img src="assets/pics/step1.png" alt="step1">
+              <p class="smaller-title">1. Đăng ký trực tiếp tại cửa hàng, điểm bán của Viettel trên toàn quốc</p>
+              <ul>
+                <li>Cung cấp giấy tờ chứng minh độ tuổi từ 14 - 22</li>
+                <li>Cung cấp giấy tờ chứng minh là sinh viên để nhận ưu đãi cộng 25K hoặc 1GB hàng tháng</li>
+              </ul>  
+            </div>
+            <div class="col step-2">
+              <img src="assets/pics/step2.png" alt="step2">
+              <p class="smaller-title">2. Chuyển đổi miễn phí qua SMS: TRE gửi 195 (0đ)</p>
+              <ul>
+                <li>Dành cho thuê bao nằm trong danh sách khách hàng trẻ</li>
+                <li>Soạn tin “TRE” gửi 195 (0đ) và làm theo hướng dẫn</li>
+              </ul>  
+            </div>
+            <div class="col step-3">
+              <img src="assets/pics/step3.png" alt="step3">
+              <p class="smaller-title">3. Liên hệ 1800.8098 (miễn phí cước) hoặc tới các cửa hàng Viettel gần nhất để được tư vấn miễn phí</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="footer-body registration">  
         <div class="title">
           <p>TRENDY  VIETTEL - GÓI CƯỚC DÀNH RIÊNG CHO GIỚI TRẺ</p>
         </div>
-        <button class="btn res-btn">Đăng ký ngay</button>
+        <button class="btn main-btn detail-btn"><a href="#sign-up">Đăng ký ngay</a></button>
       </div>
-      <div class="footer">
+      <div class="footer" style="background-image: url('assets/pics/Rectangle6.png')">
           <p><span class="font-bold">© Viettel Telecom 2015. All rights reserved.</span></p>
-
-          <p>Cơ quan chủ quản: <span class="font-bold">Tập đoàn Công nghiệp - Viễn thông Quân đội</span>. GPDKKD: <span class="font-bold">0100109106-011</span> do sở KH & ĐT thành phố Hà Nội cấp</p>
-          <p>ngày 18/07/2005, Giấy phép số: 144/GP - BC do Bộ thông tin - Truyền thông cấp ngày 18/04/2007.</p>
+          <p style="text-align: center;">Cơ quan chủ quản: <span class="font-bold">Tập đoàn Công nghiệp - Viễn thông Quân đội</span>. GPDKKD: <span class="font-bold">0100109106-011</span> do sở KH & ĐT thành phố Hà Nội cấp<br/>
+          ngày 18/07/2005, Giấy phép số: 144/GP - BC do Bộ thông tin - Truyền thông cấp ngày 18/04/2007.</p>
           <p>Số 1 Giang Văn Minh, P Kim Mã, Q Ba Đình - 1800.8098</p>
       </div>
+      <!---------------------------- FOOTER ---------------------------->
     </div>
   </body>
 </html>
