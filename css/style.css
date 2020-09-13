@@ -10,6 +10,8 @@
     2, Header
     3, Banner
     4, Summary
+    5, Main Content
+    6, Footer Registration
 */
 /* ========== 1, Reset css ========== */
 * {
@@ -40,13 +42,54 @@ body {
   height: 70%;
 }
 
-ul,
-ol {
+.full-img{
+  width: 100%;
+}
+
+.text-left{
+  text-align: left !important;
+}
+
+.main-btn{
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  align-self: center;
+  padding: 13px 22px;
+  opacity: 1;
+  transition: 0.3s;
+  font-size: 18px;
+  line-height: 21px;
+  background: #fff;
+  color: #3fbda4;
+}
+
+.res-btn{
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  align-self: center;
+  margin: 12px 0px;
+  padding: 13px 22px;
+  opacity: 1;
+  transition: 0.3s;
+  font-size: 18px;
+  line-height: 21px;
+  background: #00918C;
+  color: #fff;
+}
+
+ul{
   list-style: none;
+}
+
+text-center{
+  text-align: center;
 }
 /* ========== 2, Header ========== */
 
 .header {
+  z-index: 999;
   height: 100px;
   position: sticky;
   top: 0;
@@ -119,26 +162,168 @@ ol {
 .go-to-detail-btn{
     display: flex;
     justify-content: center;
+    margin-top: 15px;
 }
 
 .detail-btn {
-  background: linear-gradient(182.99deg, #3dbda4 68.45%, #186a8f 144.03%);
-  border-radius: 4px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  color: #ffffff;
-  align-self: center;
-  margin: 26px 0px;
-  padding: 13px 22px;
-  opacity: 1;
-  transition: 0.3s;
-  font-size: 18px;
-  line-height: 21px;
+  background: linear-gradient(182.99deg, #3dbda4 68.45%, #186a8f 144.03%) !important;
+  color: #ffffff !important;
 }
 
 .detail-btn:hover {
     opacity: 0.8;
     color: #000;
 }
+
+/* ========== 5,Main Content ========== */
+
+.main-content{
+  margin-top: 42px;
+}
+.paragraph{
+  position: relative;
+}
+.paragraph .content{
+  position: absolute;
+  top: 20%;
+  left: 23%;
+  text-align: center;
+}
+.paragraph .content .title{
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
   
+}
+
+.paragraph .content ul{
+  padding-left: 40px;
+}
+
+.paragraph .content li{
+  padding-bottom: 16px;
+}
+
+.paragraph .content ul li::before{
+  color: #FF729B;
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.promotion{
+  position: relative;
+} 
+.promotion .content{
+  position: absolute;
+  top: 40%;
+  left: 6%;
+}
+
+.promotion .content .title{
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #F2F2F2;
+  text-shadow: 2px 2px 0px rgba(60, 181, 219, 0.5);
+  font-weight: bold;
+}
+
+.promotion .content .desciption{
+  font-size: 16px;
+  text-align: center;
+  line-height: 19px;
+  color: #f2f2f2;
+  font-weight: bold;
+}
+
+.promotion .part-left{
+  position: absolute;
+  top: 38%;
+  left: 10%;
+}
+
+.promotion .part-left .title{
+  font-size: 32px;
+  line-height: 37px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.promotion .part-left .desciption{
+  margin-top: 4px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.promotion .part-right{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.promotion .part-right .title{
+  font-size: 32px;
+  line-height: 37px;
+  /* color: linear-gradient(182.99deg, #3DBDA4 68.45%, #186A8F 144.03%); */
+  color: #3fbda4;
+  font-weight: bold;
+}
+
+.promotion .part-right .seperate-text{
+  line-height: 19px;
+  color: #FF729B;
+  font-weight: bold;
+}
+
+.promotion-type2{
+  position: relative;
+} 
+
+.promotion-type2 .content{
+  position: absolute;
+  top: 10%;
+  left: 17%;
+  text-align: center;
+}
+
+.promotion-type2 .content .title{
+  font-size: 32px;
+  line-height: 37px;
+  font-weight: bold;
+}
+
+/* ========== 6,Footer Registation ========== */
+
+.footer-body{
+  height: 219px;
+  background-image: url("/assets/pics/images 4.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-body .title{
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* ========== 6,Footer ========== */
+
+.footer{
+  height: 186px;
+  background-image: url("/assets/pics/Rectangle 6.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+
