@@ -18,9 +18,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html {
   scroll-behavior: smooth;
 }
 
@@ -31,6 +28,11 @@ body {
   line-height: 1.7;
   color: #000;
 }
+
+/* body img{
+  max-width: 100%;
+  height: auto;
+} */
 
 .responsive {
   width: 100%;
@@ -326,7 +328,7 @@ text-center {
 }
 
 .advertisement .title {
-  font-size: 24px;
+  font-size: 28px;
   line-height: 37px;
   /* color: linear-gradient(182.99deg, #3DBDA4 68.45%, #186A8F 144.03%); */
   color: #3fbda4;
@@ -359,9 +361,9 @@ text-center {
   font-weight: bold;
 }
 
-.sign-up .col {
+/* .sign-up .steps {
   padding: 0 80px;
-}
+} */
 
 .footer-body {
   height: 219px;
