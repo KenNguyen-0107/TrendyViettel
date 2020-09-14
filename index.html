@@ -13,19 +13,41 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css" />
+    <script>
+      function toggleNav() {
+        var navMobile = document.querySelector('.nav-mobile');
+        if(navMobile.className == 'nav-mobile') {
+          navMobile.className = 'nav-mobile nav-mobile--show';
+        } else {
+          navMobile.className = 'nav-mobile';
+        }
+      }
+    </script>
   </head>
   <body>
     <div class="wrapper" id="home">
       <!---------------------------- HEADER ---------------------------->
       <div class="header">
         <div class="header-content">
-          <div class="mobile-menu dropdown">
-            <a><i class="fa fa-bars"></i></a>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
+          <div class="mobile-menu">
+            <button class="btn" onclick="toggleNav()"><i class="fa fa-bars"></i></button>
+            <nav class="nav-mobile">
+              <button class="btn border-0" id="closeNav" onclick="toggleNav()">&times;</button>
+              <ul class="nav-mobile__container">
+                <li class="nav-mobile__item">
+                  <a href="#" onclick="toggleNav()">Trang chủ</a>
+                </li>
+                <li class="nav-mobile__item">
+                  <a href="#introduction" onclick="toggleNav()">Giới thiệu</a>
+                </li>
+                <li class="nav-mobile__item">
+                  <a href="#advantages" onclick="toggleNav()">Các ưu đãi</a>
+                </li>
+                <li class="nav-mobile__item">
+                  <a href="#sign-up" onclick="toggleNav()">Cách thức đăng ký</a>
+                </li>
+              </ul>
+            </nav>
           </div>
           <div class="logo">
             <a href="#home">
@@ -257,8 +279,8 @@
         <button class="btn main-btn detail-btn"><a href="#sign-up">Đăng ký ngay</a></button>
       </div>
       <div class="footer" style="background-image: url('assets/pics/Rectangle6.png')">
-          <p><span class="font-bold">© Viettel Telecom 2015. All rights reserved.</span></p>
-          <p style="text-align: center;">Cơ quan chủ quản: <span class="font-bold">Tập đoàn Công nghiệp - Viễn thông Quân đội</span>. GPDKKD: <span class="font-bold">0100109106-011</span> do sở KH & ĐT thành phố Hà Nội cấp<br/>
+          <p class="font-bold">© Viettel Telecom 2015. All rights reserved.</p>
+          <p style="text-align: center;">Cơ quan chủ quản: <span style="font-weight: 700;">Tập đoàn Công nghiệp - Viễn thông Quân đội</span>. GPDKKD: <span style="font-weight: 700;">0100109106-011</span> do sở KH & ĐT thành phố Hà Nội cấp<br/>
           ngày 18/07/2005, Giấy phép số: 144/GP - BC do Bộ thông tin - Truyền thông cấp ngày 18/04/2007.</p>
           <p>Số 1 Giang Văn Minh, P Kim Mã, Q Ba Đình - 1800.8098</p>
       </div>

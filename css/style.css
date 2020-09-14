@@ -98,6 +98,10 @@ a:hover {
 text-center {
   text-align: center;
 }
+
+font-bold{
+  font-weight: 700;
+}
 /* ========== 2, Header ========== */
 
 .header {
@@ -435,31 +439,50 @@ text-center {
     display: none;
   }
 
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .dropdown-content {
+  .nav-mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    background-color:rgba(51, 51, 51, 0.47);
   }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+  .nav-mobile--show {
     display: block;
-    text-align: left;
+  }
+
+  .nav-mobile__item{
+    border-top:1px solid #ececec;
+  }
+
+  .nav-mobile__container {
+    position: absolute;
+    top: 0;
+    right: 45%;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #fff;
+  }
+
+  .nav-mobile__container li>a{
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+  }
+
+  #closeNav {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    background-color: transparent;
+  }
+  #closeNav:focus {
+    border: none;
+    outline: none;
   }
 
   .mobile-menu{
@@ -476,6 +499,10 @@ text-center {
     padding: 10px;
   }
   
+  .main-btn{
+    margin-top:10px;
+  }
+
   .pic-center{
     padding: 10px;
   }
@@ -558,7 +585,7 @@ text-center {
 
   .promotion .part-right .title{
     font-size: 20px;
-  line-height: 10px;
+    line-height: 10px;
   }
   
   .promotion .content .title{
