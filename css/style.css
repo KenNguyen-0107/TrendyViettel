@@ -499,9 +499,9 @@ font-bold{
     padding: 10px;
   }
   
-  .main-btn{
+  /* .main-btn{
     margin-top:10px;
-  }
+  } */
 
   .pic-center{
     padding: 10px;
@@ -552,7 +552,7 @@ font-bold{
   }
 
   .paragraph .content p{
-    margin-bottom: 0;
+    margin-bottom: 0.2em;
   }
 
   .paragraph .content ul{
@@ -718,4 +718,44 @@ font-bold{
 
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* ----------- iPad  ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 3){
+  .paragraph .content .title{
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .paragraph .content ul{
+    padding-left: 24px;
+    padding-bottom: 0;
+  }
+
+  .paragraph .content li{
+    padding-bottom: 0;
+  }
+
+  .main-btn{
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  .promotion .part-left .title{
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .promotion .part-left .desciption{
+    font-size: 14px;
+  }
+
+  .promotion .part-right .title{
+    font-size: 24px;
+    line-height: 16px;
+  }
+
+  .promotion .content .title{
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
