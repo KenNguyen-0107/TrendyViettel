@@ -422,6 +422,71 @@ font-bold{
   }
 }
 
+@media only screen and (min-device-width: 620px) and (max-device-width: 1024px){
+  body{
+    font-size: 14px;
+  }
+
+  p{
+    margin-bottom: 10px !important;
+  }
+
+  .main-btn{
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+
+  .paragraph .content li{
+    padding-bottom: 2px;
+  }
+
+  .list-menu .menu-item{
+    padding: 0 19px;
+  }
+  .paragraph .content .title{
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .promotion .content .title{
+    font-size: 24px;
+  }
+
+  .promotion-type2 .content .title{
+    font-size: 24px;
+  }
+
+  .promotion .part-left{
+    top: 25%;
+    left: 5%;
+  }
+
+  .promotion .part-left .title{
+    font-size: 24px;
+  }
+  .promotion .part-left .desciption{
+    font-size: 10px;
+  }
+
+  .promotion .part-right{
+    top: 10%;
+    left: 55%;
+  }
+  .promotion .part-right .title{
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .promotion-type2 .content .title{
+    line-height: 27px;
+  }
+
+  .promotion-type2 .content .desciption, .promotion .part-right .desciption{
+    font-size: 12px;
+  }
+
+}
+
 @media only screen and (max-width: 420px) and (min-width: 300px) and (orientation: portrait){ 
   body {
     font-size: 14px; 
