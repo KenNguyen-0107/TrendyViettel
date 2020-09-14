@@ -13,16 +13,6 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css" />
-    <script>
-      function toggleNav() {
-        var navMobile = document.querySelector('.nav-mobile');
-        if(navMobile.className == 'nav-mobile') {
-          navMobile.className = 'nav-mobile nav-mobile--show';
-        } else {
-          navMobile.className = 'nav-mobile';
-        }
-      }
-    </script>
   </head>
   <body>
     <div class="wrapper" id="home">
@@ -35,22 +25,22 @@
               <button class="btn border-0" id="closeNav" onclick="toggleNav()">&times;</button>
               <ul class="nav-mobile__container">
                 <li class="nav-mobile__item">
-                  <a href="#" onclick="toggleNav()">Trang chủ</a>
+                  <a class="" href="#" onclick="toggleNav()">Trang chủ</a>
                 </li>
                 <li class="nav-mobile__item">
-                  <a href="#introduction" onclick="toggleNav()">Giới thiệu</a>
+                  <a class="" href="#introduction" onclick="toggleNav()">Giới thiệu</a>
                 </li>
                 <li class="nav-mobile__item">
-                  <a href="#advantages" onclick="toggleNav()">Các ưu đãi</a>
+                  <a class="" href="#advantages" onclick="toggleNav()">Các ưu đãi</a>
                 </li>
                 <li class="nav-mobile__item">
-                  <a href="#sign-up" onclick="toggleNav()">Cách thức đăng ký</a>
+                  <a class="" href="#sign-up" onclick="toggleNav()">Cách thức đăng ký</a>
                 </li>
               </ul>
             </nav>
           </div>
           <div class="logo">
-            <a href="#home">
+            <a class="" href="#home">
               <img
                 src="assets/pics/Logo_Viettel2.png"
                 alt="logo"
@@ -62,16 +52,16 @@
           <div class="header-menu nav nav-btn">
             <ul class="list-menu">
               <li class="menu-item">
-                <a class="nav-links" href="#">Trang chủ</a>
+                <a class="nav-links " href="#">Trang chủ</a>
               </li>
               <li class="menu-item">
-                <a class="nav-links" href="#introduction">Giới thiệu</a>
+                <a class="nav-links " href="#introduction">Giới thiệu</a>
               </li>
               <li class="menu-item">
-                <a class="nav-links" href="#advantages">Các ưu đãi</a>
+                <a class="nav-links " href="#advantages">Các ưu đãi</a>
               </li>
               <li class="menu-item">
-                <a class="nav-links" href="#sign-up">Cách thức đăng ký</a>
+                <a class="nav-links " href="#sign-up">Cách thức đăng ký</a>
               </li>
             </ul>
           </div>
@@ -141,7 +131,7 @@
             </div>
           </div>
           <div class="row go-to-detail-btn center">
-            <button class="btn main-btn detail-btn">Xem chi tiết</button>
+            <a class="" href="#advantages"><button class="btn main-btn detail-btn">Xem chi tiết</button></a>
           </div>
         </div>
       </div>
@@ -150,17 +140,17 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-6 pl-0 pr-0">
-                <img class="full-img" src="assets/pics/hinh1.png" alt="">
+                <img class="full-img" src="assets/pics/hinh1.png" alt="hinh1">
             </div>
             <div class="col-sm-6 pl-0 pr-0 paragraph">
-                <img class="full-img" src="assets/pics/images3.png" alt="">
+                <img class="full-img" src="assets/pics/images3.png" alt="hinh2">
                 <div class="content">
                   <p class="title">Siêu rẻ dành cho giới trẻ</p>
                   <ul class="text-left">
                     <li>Gọi nội mạng/ngoại mạng chỉ <span style="font-weight: bold;">690 VNĐ/phút</span></li>
                     <li>Miễn phí tất cả các cuộc gọi nội mạng &lt; 20p</br> khi đăng ký gói Data ST15K (3GB/3 ngày/15K) </br>hoặc ST30K (7GB/7 ngày/30K)</li>
                   </ul>
-                  <button class="btn main-btn"><a href='#sign-up'>Đăng ký ngay</a></button>
+                  <a class="" href='#sign-up'><button class="btn main-btn">Đăng ký ngay</button></a>
                 </div>
             </div>
           </div>
@@ -177,7 +167,7 @@
                     <li>Miễn phí 20 phút gọi ngoại mạng</li>
                     <li>30GB data tốc độ cao truy cập internet</li>
                   </ul>
-                  <button class="btn main-btn">Xem chi tiết</button>
+                  <button class="btn main-btn">V90X gửi 191</button>
               </div>
             </div>
             <div class="col-sm-6 pl-0 pr-0 order-first order-sm-1">
@@ -195,20 +185,20 @@
                     Apple Music và Apple TV+ </p>
                   <p>Sau khi kết thúc 06 tháng miễn phí, gia hạn chỉ 29.000 VNĐ/tháng
                   </br>sử dụng dịch vụ Apple Music và tặng kèm Apple TV+</p>
-                  <button class="btn main-btn">Xem chi tiết</button>
+                  <a href="http://applemusic.com/student" target="_blank"><button class="btn main-btn">Xem chi tiết</button></a>
                 </div>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-4 pl-0 pr-0 promotion">
-              <img class="full-img" src="assets/pics/tiktok.png" alt="">
+              <img class="full-img" src="assets/pics/tiktok.png" alt="tiktok">
               <div class="content">
                 <p class="title">FREE DATA - TIKTOK THẢ GA</p>
                 <p class="desciption">Miễn phí data sử dụng Mocha và Tiktok</p>
               </div>
             </div>
             <div class="col-sm-4 pl-0 pr-0 promotion">
-              <img class="full-img" src="assets/pics/25k.png" alt="">
+              <img class="full-img" src="assets/pics/25k.png" alt="promotion2">
               <div class="part-left">
                 <p class="title">Tặng ngay</p>
                 <p class="desciption">cho khách hàng hoàn</br> thành thủ tục sinh viên</p>
@@ -222,13 +212,13 @@
               </div>
             </div>
             <div class="col-sm-4 pl-0 pr-0 promotion-type2">
-              <img class="full-img" src="assets/pics/Rectangle5.png" alt="">
+              <img class="full-img" src="assets/pics/Rectangle5.png" alt="promotion3">
               <div class="content">
                 <p class="title">Voucher giảm 15%<br/>khi mua <span style="font-style: italic; color: #fff">Biti'sHunter</span></p>
                 <p class="desciption">Truy cập Viettel++ trên ứng dụng MyViettel để<br/> 
                   lấy ngay voucher giảm 15% khi mua giày Biti’s</br> Hunter. Vì số lượng voucher có hạn, ưu đãi sẽ 
                   </br>diễn ra cho đến khi hết voucher.</p>
-                <button class="btn main-btn">LẤY VOUCHER NGAY</button>
+                  <a href="https://cong.viettel.vn/" target="_blank"><button class="btn main-btn">LẤY VOUCHER NGAY</button></a>
               </div>
             </div>
           </div>
@@ -241,7 +231,7 @@
             <div class="col-sm-3 sign-up-col" style="padding: 0">
                 <span class="title">Đăng ký gói cước Trendy</span><br/>
                 <span class="sub-title">theo 3 cách</span><br/>
-                <button class="btn main-btn detail-btn"><a href="#sign-up">Đăng ký ngay</a></button>
+                <a class="" href="#sign-up"><button class="btn main-btn detail-btn">Đăng ký ngay</button></a>
             </div>
             <div class="col-sm-3 steps step-1">
               <div style="text-align: center">
@@ -276,7 +266,7 @@
         <div class="title">
           <p>TRENDY  VIETTEL - GÓI CƯỚC DÀNH RIÊNG CHO GIỚI TRẺ</p>
         </div>
-        <button class="btn main-btn detail-btn"><a href="#sign-up">Đăng ký ngay</a></button>
+        <a class="" href="#sign-up"><button class="btn main-btn detail-btn">Đăng ký ngay</button></a>
       </div>
       <div class="footer" style="background-image: url('assets/pics/Rectangle6.png')">
           <p class="font-bold">© Viettel Telecom 2015. All rights reserved.</p>
@@ -287,4 +277,14 @@
       <!---------------------------- FOOTER ---------------------------->
     </div>
   </body>
+  <script>
+    function toggleNav() {
+      let navMobile = document.querySelector('.nav-mobile');
+      if(navMobile.className == 'nav-mobile') {
+        navMobile.className = 'nav-mobile nav-mobile--show';
+      } else {
+        navMobile.className = 'nav-mobile';
+      }
+    }
+  </script>
 </html>
