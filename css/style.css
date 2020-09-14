@@ -99,7 +99,7 @@ text-center {
   text-align: center;
 }
 
-font-bold{
+font-bold {
   font-weight: 700;
 }
 /* ========== 2, Header ========== */
@@ -114,7 +114,7 @@ font-bold{
   padding-top: 20px;
 }
 
-.mobile-menu{
+.mobile-menu {
   display: none;
 }
 
@@ -416,89 +416,89 @@ font-bold{
     padding: 24px;
   }
 
-  .sign-up-col{
+  .sign-up-col {
     text-align: center;
     margin-bottom: 15px;
   }
 }
 
-@media only screen and (min-device-width: 620px) and (max-device-width: 1024px){
-  body{
+@media only screen and (min-device-width: 620px) and (max-device-width: 1024px) {
+  body {
     font-size: 14px;
   }
 
-  p{
+  p {
     margin-bottom: 8px !important;
   }
 
-  .main-btn{
+  .main-btn {
     padding: 4px;
-    font-size: 12px;  
-    line-height:18px;
+    font-size: 12px;
+    line-height: 18px;
   }
 
-  .paragraph .content li{
+  .paragraph .content li {
     padding-bottom: 2px;
   }
 
-  .list-menu .menu-item{
+  .list-menu .menu-item {
     padding: 0 19px;
   }
-  .paragraph .content .title{
+  .paragraph .content .title {
     font-size: 24px;
     line-height: 30px;
   }
 
-  .promotion .content .title{
+  .promotion .content .title {
     font-size: 24px;
   }
 
-  .promotion .part-left{
+  .promotion .part-left {
     top: 25%;
     left: 5%;
   }
 
-  .promotion .part-left .title{
+  .promotion .part-left .title {
     font-size: 24px;
   }
-  .promotion .part-left .desciption{
+  .promotion .part-left .desciption {
     font-size: 10px;
   }
 
-  .promotion .part-right{
+  .promotion .part-right {
     top: 10%;
     left: 55%;
   }
-  .promotion .part-right .title{
+  .promotion .part-right .title {
     font-size: 18px;
     line-height: 18px;
   }
 
-  .promotion-type2 .content .title{
+  .promotion-type2 .content .title {
     line-height: 24px;
     font-size: 22px;
   }
 
-  .promotion-type2 .content .desciption, .promotion .part-right .desciption{
+  .promotion-type2 .content .desciption,
+  .promotion .part-right .desciption {
     font-size: 12px;
   }
-
 }
 
-@media only screen and (max-width: 420px) and (min-width: 300px) and (orientation: portrait){ 
+@media only screen and (max-width: 420px) and (min-width: 300px) and (orientation: portrait) {
   body {
-    font-size: 14px; 
-  } 
+    font-size: 14px;
+  }
 
-  .wrapper{ 
-    overflow: hidden; 
-  } 
+  .wrapper {
+    overflow: hidden;
+  }
 
-  .header{
+  .header {
     padding: 20px 30px 0 20px;
   }
 
-  .header-menu{
+  .header-menu {
     display: none;
   }
 
@@ -509,14 +509,14 @@ font-bold{
     bottom: 0;
     left: 0;
     display: none;
-    background-color:rgba(51, 51, 51, 0.47);
+    background-color: rgba(51, 51, 51, 0.47);
   }
   .nav-mobile--show {
     display: block;
   }
 
-  .nav-mobile__item{
-    border-top:1px solid #ececec;
+  .nav-mobile__item {
+    border-top: 1px solid #ececec;
   }
 
   .nav-mobile__container {
@@ -529,7 +529,7 @@ font-bold{
     background-color: #fff;
   }
 
-  .nav-mobile__container li>a{
+  .nav-mobile__container li > a {
     padding: 10px 10px 10px 10px;
     font-size: 15px;
   }
@@ -548,47 +548,46 @@ font-bold{
     outline: none;
   }
 
-  .mobile-menu{
+  .mobile-menu {
     display: block;
-    color: rgba(102,102,102,0.85);
+    color: rgba(102, 102, 102, 0.85);
     font-size: 25px;
   }
 
-  .logo-mobile{
+  .logo-mobile {
     width: 170px;
   }
 
-  .summary{
+  .summary {
     padding: 10px;
   }
-  
+
   /* .main-btn{
     margin-top:10px;
   } */
 
-  .pic-center{
+  .pic-center {
     padding: 10px;
   }
 
-  .sign-up-col{
+  .sign-up-col {
     text-align: center;
     padding-bottom: 35px !important;
   }
 
-  .footer-body .title{ 
-    text-align: center; 
-  } 
-
-  .footer{ 
-    height: 270px; 
-    padding: 10px 10px; 
+  .footer-body .title {
     text-align: center;
-  } 
-
-  .advertisement{
-    padding: 10px;  
   }
 
+  .footer {
+    height: 270px;
+    padding: 10px 10px;
+    text-align: center;
+  }
+
+  .advertisement {
+    padding: 10px;
+  }
 }
 
 /* ----------- iPhone 4 and 4S ----------- */
@@ -609,16 +608,16 @@ font-bold{
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  .paragraph .content .title{
+  .paragraph .content .title {
     font-size: 18px;
     line-height: 18px;
   }
 
-  .paragraph .content p{
+  .paragraph .content p {
     margin-bottom: 0.2em;
   }
 
-  .paragraph .content ul{
+  .paragraph .content ul {
     margin-bottom: 0;
     padding-left: 24px;
   }
@@ -627,36 +626,36 @@ font-bold{
     padding-bottom: 0;
   }
 
-  .main-btn{
+  .main-btn {
     padding: 8px 14px;
     font-size: 12px;
     line-height: 21px;
   }
 
-  .promotion .part-left .title{
+  .promotion .part-left .title {
     font-size: 18px;
     line-height: 14px;
   }
 
-  .promotion .part-left .desciption{
+  .promotion .part-left .desciption {
     font-size: 12px;
   }
 
-  .promotion .part-right{
+  .promotion .part-right {
     top: 18%;
   }
 
-  .promotion .part-right .title{
+  .promotion .part-right .title {
     font-size: 20px;
     line-height: 10px;
   }
-  
-  .promotion .content .title{
+
+  .promotion .content .title {
     font-size: 18px;
     line-height: 18px;
   }
 
-  .promotion-type2 .content .title{
+  .promotion-type2 .content .title {
     font-size: 24px;
     line-height: 24px;
   }
@@ -668,44 +667,68 @@ font-bold{
 
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .promotion .part-left {
+    top: 25%;
+  }
+
+  .promotion .part-right .title {
+    font-size: 24px !important;
+  }
+
+  .promotion .part-left .title {
+    font-size: 24px !important;
+  }
+
+  .promotion .part-left .desciption {
+    font-size: 14px !important;
+  }
+
+  .promotion-type2 .content .desciption,
+  .promotion .part-right .desciption {
+    font-size: 14px !important;
+  }
+
+  .footer p {
+    margin-bottom: 0.2rem;
+  }
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .paragraph .content .title{
+  .paragraph .content .title {
     font-size: 24px;
     line-height: 24px;
   }
-  .paragraph .content ul{
+  .paragraph .content ul {
     padding-left: 24px;
     padding-bottom: 0;
   }
 
-  .paragraph .content li{
+  .paragraph .content li {
     padding-bottom: 0;
   }
 
-  .main-btn{
+  .main-btn {
     padding: 8px 14px;
     font-size: 14px;
   }
 
-  .promotion .part-left .title{
+  .promotion .part-left .title {
     font-size: 24px;
     line-height: 24px;
   }
-  .promotion .part-left .desciption{
+  .promotion .part-left .desciption {
     font-size: 14px;
   }
 
-  .promotion .part-right .title{
+  .promotion .part-right .title {
     font-size: 24px;
     line-height: 16px;
   }
 
-  .promotion .content .title{
+  .promotion .content .title {
     font-size: 24px;
     line-height: 24px;
   }
@@ -717,6 +740,43 @@ font-bold{
 
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .header {
+    height: 140px;
+  }
+
+  .promotion .part-left .title {
+    font-size: 18px;
+  }
+
+  .promotion .part-left .desciption {
+    font-size: 11px;
+  }
+
+  .promotion-type2 .content .desciption,
+  .promotion .part-right .desciption {
+    font-size: 10px;
+  }
+
+  .promotion .part-right .title {
+    font-size: 18px;
+  }
+
+  .promotion-type2 .content .title {
+    line-height: 18px;
+    font-size: 18px;
+  }
+
+  .promotion .content .desciption {
+    font-size: 13px;
+  }
+  .paragraph .content ul {
+    margin-bottom: 0.1rem;
+  }
+
+  .paragraph .content .title {
+    font-size: 18px;
+    line-height: 18px;
+  }
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
@@ -731,18 +791,34 @@ font-bold{
 
 /* Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .header {
+    height: 120px;
+  }
+
+  .promotion .part-left .title {
+    font-size: 18px;
+  }
+
+  .promotion .part-left .desciption {
+    font-size: 11px;
+  }
+
+  .promotion-type2 .content .desciption,
+  .promotion .part-right .desciption {
+    font-size: 11px;
+  }
 }
 
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  .paragraph .content .title{
+  .paragraph .content .title {
     font-size: 24px;
     line-height: 24px;
   }
 
-  .paragraph .content ul{
+  .paragraph .content ul {
     padding-left: 24px;
   }
 
@@ -750,26 +826,26 @@ font-bold{
     padding-bottom: 0;
   }
 
-  .main-btn{
+  .main-btn {
     padding: 10px 18px;
     font-size: 14px;
     line-height: 21px;
   }
 
-  .promotion .part-left .title{
+  .promotion .part-left .title {
     font-size: 24px;
     line-height: 16px;
   }
 
-  .promotion .part-left .desciption{
-    font-size:14px;
+  .promotion .part-left .desciption {
+    font-size: 14px;
   }
 
-  .promotion .part-right{
+  .promotion .part-right {
     top: 18%;
   }
 
-  .promotion .content .title{
+  .promotion .content .title {
     font-size: 24px;
     line-height: 24px;
   }
@@ -785,39 +861,39 @@ font-bold{
 
 /* ----------- iPad  ----------- */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 3){
-  .paragraph .content .title{
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 3) {
+  .paragraph .content .title {
     font-size: 24px;
     line-height: 24px;
   }
-  .paragraph .content ul{
+  .paragraph .content ul {
     padding-left: 24px;
     padding-bottom: 0;
   }
 
-  .paragraph .content li{
+  .paragraph .content li {
     padding-bottom: 0;
   }
 
-  .main-btn{
+  .main-btn {
     padding: 8px 14px;
     font-size: 14px;
   }
 
-  .promotion .part-left .title{
+  .promotion .part-left .title {
     font-size: 24px;
     line-height: 24px;
   }
-  .promotion .part-left .desciption{
+  .promotion .part-left .desciption {
     font-size: 14px;
   }
 
-  .promotion .part-right .title{
+  .promotion .part-right .title {
     font-size: 24px;
     line-height: 16px;
   }
 
-  .promotion .content .title{
+  .promotion .content .title {
     font-size: 24px;
     line-height: 24px;
   }
